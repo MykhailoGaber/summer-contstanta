@@ -1,0 +1,22 @@
+{
+  "name": "summer-contstanta",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailoGaber/summer-contstanta.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MykhailoGaber/summer-contstanta/issues"
+  },
+  "homepage": "https://github.com/MykhailoGaber/summer-contstanta#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}

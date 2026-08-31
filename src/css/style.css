@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(56, 50, 72);
+  color: aliceblue;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #e2e8f0;
+}
+
+.heartful__title {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #f6ad55;
+}
+
+.volleyboll__container,
+.vova__container {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.heartful__text {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #cbd5e0;
+  text-align: justify;
+}
+
+video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 8px;
+  outline: none;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.vova__text {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.mogged__btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mogged__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+}
+
+.mogged__btn:active {
+  transform: translateY(0);
+}
+
+.good__btn {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  color: #4fd1c5;
+  text-decoration: none;
+  border: 2px solid #4fd1c5;
+  border-radius: 8px;
+  font-weight: bold;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.good__btn:hover {
+  background-color: #4fd1c5;
+  color: rgb(56, 50, 72);
+}
+
+.about {
+  font-size: 9px;
+}
+
+video,
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .heartful__title {
+    font-size: 1.1rem;
+  }
+}
